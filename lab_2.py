@@ -1,4 +1,3 @@
-
 import requests  
 import csv      
 import matplotlib.pyplot as plt
@@ -73,7 +72,6 @@ def main():
     print(f"Количество записей: {len(pensions)}")
     print(f"Средняя пенсия: {average:.2f} руб.")
     
-    # 6. СОРТИРУЕМ ДАННЫЕ ДЛЯ ГРАФИКА
     # Объединяем месяцы и пенсии в пары
     data_pairs = list(zip(months, pensions))
     
@@ -121,4 +119,5 @@ def main():
 
 # Запускаем программу
 if __name__ == "__main__":
+
     main()
